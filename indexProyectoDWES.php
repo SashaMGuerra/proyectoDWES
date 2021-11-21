@@ -3,7 +3,6 @@
         <title>DAW2</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="webroot/css/common.css" rel="stylesheet" type="text/css"/>
         <link href="webroot/css/indexDWES.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
@@ -23,11 +22,9 @@
                 <li>Tema 8: Desarrollo de aplicaciones web híbridas</li>
                 <li>Tema 9: Desarrollo de aplicaciones web híbridas</li>
             </ul>
-            
         </main>
         <footer>
-            <div>Modificado el 06/10/2021 - Mª Isabel Martínez Guerra</div>
-            <div><a href="https://github.com/SashaMGuerra/proyectoWeikis"><img id="github" src="webroot/media/img/github_logo_white.png" alt="github logo"/></a></div>
+            <div>© Isabel Martínez Guerra • IES Los Sauces (Benavente, Zamora) • Modificado el 21/11/2021</div>
         </footer>
     </body>
 </html>

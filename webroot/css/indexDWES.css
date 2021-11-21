@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 oct. 2021, 17:02:39
+    Author     : Usuario
+*/
+
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header, footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+header{
+    padding: 10px 0;
+    /*
+    background-image: url('../media/img/leopard_dark.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid black;
+    */
+}
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0; left: 0;
+    padding: 5px 0;
+    font-size: 11px;
+}
+
+ul{
+    margin: auto;
+    width: 100%;
+    max-width: fit-content;
+    list-style: none;
+    margin-top: 0;
+}
+li{
+    border: 1px solid gainsboro;
+    height: available;
+    padding: 10px;
+    margin: 10px 0;
+}
+a{
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: black;
+    border: 1px solid dodgerblue;
+    color: white;
+}
+
+a:visited{
+    color: darkorchid;
+}
+li:hover a:visited{
+    color: violet;
+}
