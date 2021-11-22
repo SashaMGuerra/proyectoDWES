@@ -12,8 +12,8 @@
         </header>
         <main>
             <ul>
-                <li>Tema 1: Desarrollo web en entorno servidor</li>
-                <li>Tema 2: Instalación, configuración y documentación del entorno de desarrollo y del entorno de explotación</li>
+                <li><a href="doc/EjerciciosTema1.pdf">Tema 1: Desarrollo web en entorno servidor</a></li>
+                <li><a href="doc/DocumentaciónTema2US.pdf">Tema 2: Instalación, configuración y documentación del entorno de desarrollo y del entorno de explotación</a></li>
                 <li><a href="../proyectoTema3/indexProyectoTema3.php">Tema 3: Características del lenguaje PHP</a></li>
                 <li><a href="../proyectoTema4/indexProyectoTema4.php">Tema 4: Técnicas de acceso a datos en PHP</a></li>
                 <li>Tema 5: Desarrollo de aplicaciones web utilizando código embebido</li>
