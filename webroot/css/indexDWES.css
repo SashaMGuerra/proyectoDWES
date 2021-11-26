@@ -24,19 +24,39 @@ header, footer{
 }
 header{
     padding: 10px 0;
-    /*
-    background-image: url('../media/img/leopard_dark.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-bottom: 3px solid black;
-    */
 }
-footer{
-    position: absolute;
-    width: 100%;
-    bottom: 0; left: 0;
-    padding: 5px 0;
+
+/* Para mantener el footer abajo */
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+footer {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: small;
+    background-color: black;
+    color: white;
     font-size: 11px;
+    padding: 5px 0;
+    flex-shrink: 0;
+}
+footer > *{
+    display: inline-block;
+}
+footer img{
+    width: 30px;
+    margin-right: 5px;
+}
+footer > div{
+    position: relative;
+    bottom: 8px;
 }
 
 ul{
@@ -67,4 +87,19 @@ a:visited{
 }
 li:hover a:visited{
     color: violet;
+}
+
+
+/*Botón volver*/
+a.volver{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: small;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    padding: 7px;
+    position: absolute;
+    top: 5px; right: 5px;
 }
