@@ -18,6 +18,7 @@
                 <li><a target="_blank" href="../proyectoTema3/indexProyectoTema3.php">Tema 3: Características del lenguaje PHP</a></li>
                 <li><a target="_blank" href="../proyectoTema4/indexProyectoTema4.php">Tema 4: Técnicas de acceso a datos en PHP</a></li>
                 <li><a target="_blank" href="../proyectoTema5/indexProyectoTema5.php">Tema 5: Desarrollo de aplicaciones web utilizando código embebido</a></li>
+                <li class="proyecto"><a target="_blank" href="../LoginLogoffTema5/indexLoginLogoffTema5.php">Proyecto Login-Logoff</a></li>
                 <li>Tema 6: Programación orientada a objetos en PHP</li>
                 <li>Tema 7: Programación de servicios web</li>
                 <li>Tema 8: Desarrollo de aplicaciones web híbridas</li>

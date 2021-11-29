@@ -72,6 +72,10 @@ li{
     padding: 10px;
     margin: 10px 0;
 }
+li.proyecto{
+    text-align: center;
+    text-transform: uppercase;
+}
 a{
     text-decoration: none;
 }
