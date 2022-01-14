@@ -1,11 +1,6 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : 16 oct. 2021, 17:02:39
-    Author     : Usuario
+    Author     : Sasha
 */
 
 
@@ -59,40 +54,6 @@ footer > div{
     bottom: 8px;
 }
 
-ul{
-    margin: auto;
-    width: 100%;
-    max-width: fit-content;
-    list-style: none;
-    margin-top: 0;
-}
-li{
-    border: 1px solid gainsboro;
-    height: available;
-    padding: 10px;
-    margin: 10px 0;
-}
-li.proyecto{
-    text-align: center;
-    text-transform: uppercase;
-}
-a{
-    text-decoration: none;
-}
-
-li:hover{
-    background-color: black;
-    border: 1px solid dodgerblue;
-    color: white;
-}
-
-a:visited{
-    color: darkorchid;
-}
-li:hover a:visited{
-    color: violet;
-}
-
 
 /*Botón volver*/
 a.volver{
@@ -107,3 +68,38 @@ a.volver{
     position: absolute;
     top: 5px; right: 5px;
 }
+
+/* Menú del cuerpo */
+.container{
+    height: 100%;
+    display: grid;
+}
+
+.container a{
+    text-align: justify;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-variant: small-caps;
+    color: black;
+
+    border-bottom: 1px solid gainsboro;
+}
+.container a.proyecto{
+    background-color: mistyrose;
+}
+
+.container a:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+.container a.proyecto:hover{
+    background-color: firebrick;
+    color: white;
+}
+
+/* Borra los background-color */
