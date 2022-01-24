@@ -22,6 +22,7 @@
                 <a target="_blank" href="../proyectoTema5/indexProyectoTema5.php">Tema 5: Desarrollo de aplicaciones web utilizando código embebido</a>
                 <a class="proyecto" target="_blank" href="../LoginLogoffTema5/indexLoginLogoffTema5.php">Aplicación Login-Logout Tema 5</a>
                 <a class="proyecto" target="_blank" href="../AplicacionLoginLogout/">Aplicación Login-Logout</a>
+                <a class="proyecto" target="_blank" href="../AplicacionFinal/">Aplicación Final</a>
             </div>    
         </main>
         <footer>
